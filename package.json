@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "node deploy",
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",
+    "ftp-deploy": "^2.4.1",
     "vite": "^2.8.4"
   }
 }
