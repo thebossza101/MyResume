@@ -7,7 +7,7 @@ const config = {
     host: "ftp.petchpanda.com",
     port: 2002,
     localRoot: __dirname + "/dist",
-    remoteRoot: "/domains/petchpanda.com/private_html/myresume",
+    remoteRoot: "/domains/petchpanda.com/public_html/myresume",
     // include: ["*", "**/*"],      // this would upload everything except dot files
     // include: ["*.php", "dist/*", ".*"],
     include: ["*", "**/*"],
